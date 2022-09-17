@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headingTodo {
+  background: #1019d5;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+.card {
+  text-align: center;
+  background-color: aquamarine;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  width: 370px;
+  border-radius: 7px;
+}
